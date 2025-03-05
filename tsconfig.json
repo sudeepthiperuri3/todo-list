@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Set the JavaScript version
+    "module": "commonjs", // Module system
+    "jsx": "react-jsx", // Ensure this is set to `react-jsx` or `react`
+    "strict": true, // Enable strict mode for better type safety
+    "esModuleInterop": true, // Enable ES module interoperability
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist", // Where the compiled files will go
+    "rootDir": "./src", // Where your source files are located
+    "resolveJsonModule": true // If you are importing JSON
+  },
+  "include": ["src/**/*"], // Include all your source files
+  "exclude": ["node_modules"] // Exclude node_modules folder
+}
